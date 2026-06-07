@@ -29,3 +29,10 @@ sandbox_mode = "danger-full-access"
 ```
 
 Use it only on machines where you trust the working environment.
+
+If you want to mark a local project as trusted, add a machine-specific entry to your local `~/.codex/config.toml`:
+
+```toml
+[projects.'c:\path\to\project']
+trust_level = "trusted"
+```

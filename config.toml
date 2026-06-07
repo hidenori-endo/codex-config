@@ -6,6 +6,3 @@ sandbox_mode = "danger-full-access"
 
 [windows]
 sandbox = "elevated"
-
-[projects.'c:\users\ninte']
-trust_level = "trusted"
